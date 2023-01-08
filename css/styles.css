@@ -648,7 +648,7 @@ h1,h2,h3,h4,p {
     .social-media-list-item {
         display: flex;
         align-items: center;
-        /* justify-content: center; */
+        justify-content: center;
        }
 
        .social-media-icon{
