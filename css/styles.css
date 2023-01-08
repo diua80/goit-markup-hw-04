@@ -636,19 +636,29 @@ h1,h2,h3,h4,p {
 }
 
 
-.social-media-link{
+/* .social-media-link{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     display: block;    
-}
+} */
 
+.social-media-link {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.1);
+     
+ }
 
     .social-media-list-item {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
        }
 
        .social-media-icon{
