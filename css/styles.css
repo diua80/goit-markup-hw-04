@@ -440,9 +440,23 @@ line-height: 1.5;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     
 }
+
+.customers-list-icon:hover{
+    fill: #404BBF;
+}
+.customers-list-icon:focus{
+    fill:#404BBF;
+}
+
+.customers-items:hover {
+    border: 1px solid var(--portfolio-tlo-hover-btn);
+    
+}
+
+
 
 .customers-list-icon{
     margin-right: auto;
@@ -453,6 +467,8 @@ line-height: 1.5;
     fill: #8E8F99;
     
 }
+
+
 
 
 
@@ -663,4 +679,49 @@ h1,h2,h3,h4,p {
 
        .social-media-icon{
         fill: var(--white);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .social-list-footer{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .social-item-footer {
+        }
+
+        .social-link-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .social-link-footer:hover{
+            background-color: #31D0AA;
+         }
+         .social-link-footer:focus{
+             background-color: #31D0AA;
+          }
+         
+
+
+
+        .social-footer-icon{
+            fill: var(--white);
         }
