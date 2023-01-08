@@ -681,18 +681,6 @@ h1,h2,h3,h4,p {
         fill: var(--white);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
         .social-list-footer{
             display: flex;
             justify-content: center;
@@ -719,9 +707,6 @@ h1,h2,h3,h4,p {
              background-color: #31D0AA;
           }
          
-
-
-
         .social-footer-icon{
-            fill: var(--white);
+            fill: var(--background-light);
         }
