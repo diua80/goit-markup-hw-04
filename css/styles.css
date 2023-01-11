@@ -278,6 +278,22 @@ line-height: 1.5;
            
         }
 
+        .solution-icon{
+            fill: #2E2F42;
+        }
+
+        .solution-icon-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 264px;
+            height: 112px;
+            left: 0px;
+            top: 0px;
+            background: #F4F4FD;
+            border-radius: 4px;
+        }
+
         .solution-organize{
             width: 264px;
             margin-left: auto;
