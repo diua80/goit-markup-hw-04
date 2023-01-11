@@ -279,7 +279,7 @@ line-height: 1.5;
         }
 
         .solution-icon{
-            fill: #2E2F42;
+            fill: #;
         }
 
         .solution-icon-container{
@@ -446,16 +446,11 @@ line-height: 1.5;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    /* text-transform: capitalize; */
     color: var(--text-color);
     margin-bottom: 72px;
     margin-top: 10px;
 }
 
- /* .customer-title{
-    margin-top: 10px;
-    margin-bottom: 72px;
-    } */
 
  .customers-list{
     display: flex;
@@ -465,11 +460,10 @@ line-height: 1.5;
 }
 
 
- .customers-items{
+ .customers-list-link{
     display: flex;
     justify-items: center;
     align-items: center;
-    
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
@@ -478,28 +472,25 @@ line-height: 1.5;
     
 }
 
-.customers-list-icon:hover,
+.customers-list-link:hover, 
+.customers-list-link:focus{
+    border: 1px solid #404BBF;
+}
+
+
+.customers-list-icon:hover
 .customers-list-icon:focus{
     fill: #404BBF;
 }
 
 
-
-.customers-items:hover {
-    border: 1px solid var(--portfolio-tlo-hover-btn);
-    
-}
-
-
-
-.customers-list-icon{
-    margin-right: auto;
-    margin-left: auto;
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon{
+    fill: #404BBF;
 }
 
 .customers-list-icon{
-    fill: #8E8F99;
-    
+    fill: #8E8F99;    
 }
 
 
