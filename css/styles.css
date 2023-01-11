@@ -416,12 +416,13 @@ line-height: 1.5;
     /* text-transform: capitalize; */
     color: var(--text-color);
     margin-bottom: 72px;
+    margin-top: 10px;
 }
 
- .customer-title{
+ /* .customer-title{
     margin-top: 10px;
     margin-bottom: 72px;
-    }
+    } */
 
  .customers-list{
     display: flex;
