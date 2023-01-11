@@ -478,7 +478,7 @@ line-height: 1.5;
 }
 
 
-.customers-list-icon:hover
+.customers-list-icon:hover,
 .customers-list-icon:focus{
     fill: #404BBF;
 }
