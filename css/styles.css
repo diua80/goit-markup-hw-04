@@ -261,6 +261,21 @@ line-height: 1.5;
         }
         .solution-title {
         }
+
+        .solution-icon-list{
+            display: flex;
+        }
+
+        .solution-icon-items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 264px;
+            height: 112px;
+            background: #F4F4FD;
+            border-radius: 4px;
+        }
+
         .solution-organize{
             width: 264px;
             margin-left: auto;
