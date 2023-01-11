@@ -484,15 +484,10 @@ line-height: 1.5;
 }
 
 
-.customers-items:hover,
-.customers-items:focus {
+
+.customers-items:hover {
     border: 1px solid var(--portfolio-tlo-hover-btn);
     
-}
-
-.customers-items:hover .customers-list-icon,
-.customers-items:focus .customers-list-icon{
-    fill: #404BBF;
 }
 
 
