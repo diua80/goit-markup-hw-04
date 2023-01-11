@@ -469,29 +469,25 @@ line-height: 1.5;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     background-color: transparent;
-    
-}
-
+ }
 .customers-list-link:hover, 
 .customers-list-link:focus{
     border: 1px solid #404BBF;
 }
 
 
-.customers-list-icon:hover,
-.customers-list-icon:focus{
-    fill: #404BBF;
+
+.customers-list-icon{
+    fill: #8E8F99; 
+    margin-left: auto;
+    margin-right: auto;   
 }
-
-
 .customers-list-link:hover .customers-list-icon,
 .customers-list-link:focus .customers-list-icon{
     fill: #404BBF;
 }
 
-.customers-list-icon{
-    fill: #8E8F99;    
-}
+
 
 
 
